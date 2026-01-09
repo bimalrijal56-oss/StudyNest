@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* ==============================header============================= */
+header {
+    background: #1F4FA3;
+}
+
+header ul a {
+    font-size: 7rem;
+    color: white !important;
+}
+
+header ul a:hover {
+    color: #4DA3FF !important;
+}
+
+header ul a.active {
+    font-weight: bold;
+    color: #4DA3FF !important;
+}
+
+header ul .active::after {
+    content: '';
+    display: block;
+    width: 7rem;
+    height: 2px;
+    margin: auto;
+    background: #4DA3FF !important;
+}
+
+.nav-brand img {
+    height: 10px;
+    width: 20px;
+}
+
+/* ===============================================banner=========================== */
+
+.banner {
+    width: 100%;
+    height: 500px;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to right, rgba(13, 71, 161, 0.5), rgba(3, 75, 184, 0.5), rgba(3, 75, 184, 0)50%), url(../Images/heropic.jpg.jpeg);
+    background-size: 110% 130%;
+    background-position: top;
+    object-fit: fill;
+
+}
+
+.course-banner {
+    width: 100%;
+    height: 200px;
+    background-image: url(../Images/course-banner.webp);
+    background-size: cover;
+    background-position: top;
+    object-fit: fill;
+
+}
+
+.banner-content h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 7rem;
+}
+
+.course-banner h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 6rem !important;
+}
+
+.banner-content p {
+    color: white;
+    font-size: 2.5rem;
+
+
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner-content .banner-button button {
+    font-size: 2rem;
+}
+
+.banner-content .banner-button .secondary:hover {
+    background: #0d6efd;
+}
+
+/* ==========services======================= */
+.services {
+    width: 100%;
+    height: 200px;
+}
+.contact-us img{
+ width: 23rem;
+ height: 30rem;
+}
+
+/* ==============footer====================== */
+footer {
+    background: #07255a;
+    height: 200px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* =====================hover============================= */
+.services p:hover {
+    transform: scale(1.05);
+    color: #005eff
+}
+
+.popular-subjects img:hover {
+    transform: scale(1.05);
+
+}
+
+.popular-subjects p:hover {
+    color: #005eff;
+}
+
+.free-resources p:hover {
+    color: #005eff;
+}
+
+.free-resources img:hover {
+    transform: scale(1.05);
+}
+.contact-us img:hover{
+    transform: scale(1.02);
+}
+.contact-us p:hover{
+    color: #0079fa;
+}
+.contact-us .social-media .bi:hover{
+    display: inline-block;
+    transform: scale(1.09);
+}
+
+.available-courses {
+
+    grid-template-columns: repeat(3, 350px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.available-notes {
+    grid-template-columns: repeat(3, 350px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.available-notes img:hover {
+    transform: scale(1.02);
+
+}
+
+.available-notes a:hover {
+    color: #e1dedeee !important;
+}
+
+.available-courses img:hover {
+    transform: scale(1.05);
+
+}
+
+.available-courses p:hover {
+    color: #005eff;
+}
+
+/* ===================Notes Banner========================= */
+.notes-banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(../Images/notesbanner.webp);
+    background-size: cover;
+    background-position: top;
+    background-size: 110% 130%;
+    background-position: top;
+    object-fit: fill;
+}
+.available-notes a{
+    width: 31rem !important;
+}
+
